@@ -37,9 +37,19 @@ p{
 /*ESTILO DEL HEADER*/
 .bienvenida{
     padding: 1rem;
-    background-color: var(--colorPrincipal);
     height: 40vh;
+    background: hsla(13, 90%, 58%, 1);
+    background: hsla(13, 90%, 58%, 1);
+    background: hsla(13, 90%, 58%, 1);
+    background: hsla(13, 90%, 58%, 1);
+
+    background: radial-gradient(circle, hsla(13, 90%, 58%, 1) 58%, hsla(13, 65%, 46%, 0.9) 100%);
     
+    background: -moz-radial-gradient(circle, hsla(13, 90%, 58%, 1) 58%, hsla(13, 65%, 46%, 0.9) 100%);
+    
+    background: -webkit-radial-gradient(circle, hsla(13, 90%, 58%, 1) 58%, hsla(13, 65%, 46%, 0.9) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F46036", endColorstr="#C04A29", GradientType=1 );
 }
 .bienvenida h1{
     color: white;
