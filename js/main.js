@@ -95,6 +95,12 @@ function copiarAlPortapapeles(id_elemento) {
     swal("Copiado Correctamente!", " ", "success");
 
   });
+
+  var proximamente = $(".proximamente");
+  proximamente.on("click",function(){
+    swal("Esta seccion no esta disponible por el momento!", " ", "error");
+      
+  })
  
 //JQuery
 $(document).ready(function() {
